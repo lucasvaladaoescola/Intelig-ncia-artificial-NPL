@@ -1,0 +1,32 @@
+:root{
+    --principal: #FF4655;
+    --secunda: #222;
+    --terceira: #eee;
+}
+.header{
+    width: 100%;
+    height: 12vh;
+    padding: 20px;
+    background: #333;
+}
+.header nav{
+    width: 60%;
+    height: 5vh;
+    background: #F00;
+    float: right;
+}
+.header nav ul{
+    float: right;
+    padding-right: 4%;
+}
+.header nav ul li{
+    list-style: none;
+    display: inline;
+}
+.header nav ul li a{
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: var(--principal);
+    margin-right: 5%;
+    line-height: 5vh;
+}
