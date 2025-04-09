@@ -1,12 +1,56 @@
 section{
     width: 100%;
-    min-height: 65vh;
+    min-height: 80vh;
     height: auto;
     background-color: #ccc;
     float: left;
+}
+section h1{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: -12vh;
+    color: #1e40af;
+    font-size: 36px;
+
+
 }
 section h2{
     text-align: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin-top: 2vh;
+    width: 50%;
+    color: #333333;
+}
+section h3{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 10vh;
+    font-size: 150%;
+    width: 50%;
+    color: #333333;
+
+}
+section iframe{
+    width: 30%;
+    height: 250px;
+    margin-left: 65%;
+    margin-top: -70%;
+
+}
+section h4{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 10vh;
+    font-size: 150%;
+    width: 100%;
+    color: #333333;
+}
+section h5{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 10vh;
+    font-size: 120%;
+    width: 100%;
+    color: #333333;
+    background-position-x: 70px;
 }
